@@ -59,7 +59,10 @@
         },
         "adminPassword": {
             "type": "secureString",
-            "defaultValue": ""
+            "defaultValue": "[concat('Subscription#',substring(resourcegroup().id,15,36))]",
+            "metadata": {
+        "description": "Password for the Virtual Machine. Default value is 'Subscription#<subscription id>'"
+      }
         },
         "patchMode": {
             "type": "string",
