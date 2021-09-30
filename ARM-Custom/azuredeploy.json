@@ -3,10 +3,18 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "type": "string"
+            "type": "string",
+            "metadata": {
+                "description": "Username for the Virtual Machine. Default value is localadmin"
+                },
+            "defaultValue": "localadmin"
         },
         "networkInterfaceName": {
-            "type": "string"
+            "type": "string",
+            "metadata": {
+                "description": "Username for the Virtual Machine. Default value is localadmin"
+                },
+            "defaultValue": "localadmin"
         },
         "enableAcceleratedNetworking": {
             "type": "bool"
