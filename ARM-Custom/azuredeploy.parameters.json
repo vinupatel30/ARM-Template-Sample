@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "testarmtemplate98"
+        },
+        "enableAcceleratedNetworking": {
+            "value": true
+        },
+        "subnetName": {
+            "value": "qghsubnet001"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/5abdc3ef-3d22-4ab8-9169-634b4fd13b50/resourceGroups/qghDevRG01/providers/Microsoft.Network/virtualNetworks/qghVnet001"
+        },
+        "publicIpAddressName": {
+            "value": "testARMtemplate-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "testARMtemplate"
+        },
+        "virtualMachineComputerName": {
+            "value": "testARMtemplate"
+        },
+        "virtualMachineRG": {
+            "value": "qghDevRG01"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "synadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByPlatform"
+        }
+    }
+}
