@@ -4,59 +4,66 @@
     "parameters": {
         "location": {
             "type": "string",
-            "metadata": {
-                "description": "Username for the Virtual Machine. Default value is localadmin"
-                },
             "defaultValue": "localadmin"
         },
         "networkInterfaceName": {
             "type": "string",
-            "metadata": {
-                "description": "Username for the Virtual Machine. Default value is localadmin"
-                },
             "defaultValue": "localadmin"
         },
         "enableAcceleratedNetworking": {
             "type": "bool"
         },
         "subnetName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "vnet"
         },
         "virtualNetworkId": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "vnet"
         },
         "publicIpAddressName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "127.0.0.1"
         },
         "publicIpAddressType": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "publicIpAddressSku": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "virtualMachineName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "virtualMachineComputerName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "virtualMachineRG": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "osDiskType": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "virtualMachineSize": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "adminUsername": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         },
         "adminPassword": {
-            "type": "secureString"
+            "type": "secureString",
+            "defaultValue": ""
         },
         "patchMode": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         }
     },
     "variables": {
